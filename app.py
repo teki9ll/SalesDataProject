@@ -66,6 +66,10 @@ def on_startup():
         else:
             logger.info("Database has existing data; ready for queries.")
 
+@app.get("/")
+def home():
+    return {"message": "Go to http://<your-ip>:<port>/docs"}
+
 # API: Upload Excel Month Data - replaces existing month data for customers/brands
 @app.post("/upload-month-data/")
 async def upload_month_data(
