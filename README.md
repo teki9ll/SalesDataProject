@@ -20,7 +20,7 @@ It’s highly recommended to use a virtual environment:
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+venv\Scripts\activate    # or on Linux source venv/bin/activate
 ```
 
 Install requirements:
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 From inside the project folder:
 
 ```bash
-uvicorn main:app --reload
+uvicorn app:app --reload
 ```
 
 The server will run at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
