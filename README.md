@@ -20,7 +20,7 @@ It’s highly recommended to use a virtual environment:
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+venv\Scripts\activate    # or on Linux source venv/bin/activate
 ```
 
 Install requirements:
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 From inside the project folder:
 
 ```bash
-uvicorn main:app --reload
+uvicorn app:app --reload
 ```
 
 The server will run at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
@@ -119,8 +119,6 @@ All API endpoints can be tested interactively via the `/docs` Swagger UI:
 - Adjust or enhance the project as needed to better fit your real-world pharma sales analysis needs.
 
 **For further improvements and contributions, refer to the repository’s README and open issues or pull requests as needed.**
-
-<div style="text-align: center">⁂</div>
 
 [^1]: https://github.com/teki9ll/SalesDataProject.git
 
