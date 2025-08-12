@@ -120,7 +120,5 @@ All API endpoints can be tested interactively via the `/docs` Swagger UI:
 
 **For further improvements and contributions, refer to the repository’s README and open issues or pull requests as needed.**
 
-<div style="text-align: center">⁂</div>
-
 [^1]: https://github.com/teki9ll/SalesDataProject.git
 
